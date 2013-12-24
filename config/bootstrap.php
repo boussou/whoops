@@ -21,7 +21,7 @@ if (PHP_SAPI != 'cli') {
 
 	require __DIR__ . '/../Provider/Silex/WhoopsServiceProvider.php';
 
-	require __DIR__ . '/../run.php';
+	require __DIR__ . '/../Run.php';
 	$run     = new Run;
 	$handler = new PrettyPageHandler;
 	$run->pushHandler(new PrettyPageHandler);   
